@@ -1,9 +1,9 @@
 {
-  "name": "electron-updater-example",
+  "name": "affogato",
   "version": "0.8.1",
   "main": "main.js",
-  "description": "electron-updater example project",
-  "author": "Matt Haggard",
+  "description": "Affogato - Electron auto-updater example",
+  "author": "Eddy Liang",
   "scripts": {
     "publish": "electron-builder -p always"
   },
@@ -17,7 +17,12 @@
     "electron-updater": "^4.3.9"
   },
   "build": {
-    "appId": "com.github.iffy.electronupdaterexample",
+    "appId": "com.github.emericen.affogato",
+    "publish": [{
+      "provider": "github",
+      "owner": "Emericen",
+      "repo": "affogato"
+    }],
     "afterSign": "./build/notarize.js",
     "mac": {
       "category": "your.app.category.type"
