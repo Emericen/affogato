@@ -1,6 +1,6 @@
 {
   "name": "affogato",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "main": "main.js",
   "description": "Affogato - Electron auto-updater example",
   "author": "Eddy Liang",

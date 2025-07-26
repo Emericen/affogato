@@ -1,5 +1,12 @@
 This repo contains the **bare minimum code** to have an auto-updating Electron app using [`electron-updater`](https://github.com/electron-userland/electron-builder/tree/master/packages/electron-updater) with releases stored on GitHub.
 
+**⚠️ Important for Commercial/Private Apps:**
+GitHub releases require a **public repository** to work with electron-updater. For commercial apps with private code, consider:
+- **Cloudflare R2** - Cheap, S3-compatible
+- **Vercel/Netlify** - Simple hosting
+- **DigitalOcean Spaces** - S3-compatible, affordable
+- **Custom HTTP server** - Full control
+
 If you can't use GitHub, you can use other providers:
 
 - [Complete electron-updater HTTP example](https://gist.github.com/iffy/0ff845e8e3f59dbe7eaf2bf24443f104)
